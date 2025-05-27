@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "765662521234",
+    "firebase_url": "https://smarttrafficmanagementsy-3f635-default-rtdb.firebaseio.com",
+    "project_id": "smarttrafficmanagementsy-3f635",
+    "storage_bucket": "smarttrafficmanagementsy-3f635.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765662521234:android:90f1516f5283f83852034b",
+        "android_client_info": {
+          "package_name": "com.example.smarttrafficmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVW9WlCDDwcnpMpH6GtIdFOUctVFDejg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
