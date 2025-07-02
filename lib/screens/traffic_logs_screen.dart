@@ -18,6 +18,9 @@ class _TrafficLogsScreenState extends State<TrafficLogsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Traffic Logs', style: GoogleFonts.poppins(fontWeight: FontWeight.w600)),
+        leading:  IconButton(onPressed: (){
+          Navigator.pop(context);
+        }, icon: Icon(Icons.arrow_back_ios_new_sharp,color: Colors.black,)),
       ),
       body: Container(
         decoration: BoxDecoration(

@@ -125,6 +125,14 @@ class HomeScreen extends StatelessWidget {
             const Color(0xFF9C27B0),
             const Color(0xFF7B1FA2),
           ),
+          buildCard(
+            context,
+            'Traffic Violations',
+            Icons.traffic,
+            '/TrafficViolationsScreen',
+            const Color(0xFF37474F),
+            const Color(0xFF263238),
+          ),
         ],
       ),
     );

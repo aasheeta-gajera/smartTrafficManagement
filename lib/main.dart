@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smarttrafficmanagement/screens/TrafficViolations.dart';
 import 'screens/Home.dart';
 import 'screens/emergency_events_screen.dart';
 import 'screens/status_screen.dart';
@@ -62,6 +63,7 @@ class MyApp extends StatelessWidget {
         '/status': (context) => const StatusScreen(),
         '/switch_events': (context) => const SwitchEventsScreen(),
         '/traffic_logs': (context) => const TrafficLogsScreen(),
+        '/TrafficViolationsScreen': (context) => const TrafficViolationsScreen(),
       },
     );
   }

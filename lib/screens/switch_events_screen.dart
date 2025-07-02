@@ -17,6 +17,9 @@ class _SwitchEventsScreenState extends State<SwitchEventsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Switch Events', style: GoogleFonts.poppins(fontWeight: FontWeight.w600)),
+        leading:  IconButton(onPressed: (){
+          Navigator.pop(context);
+        }, icon: Icon(Icons.arrow_back_ios_new_sharp,color: Colors.black,)),
       ),
       body: Container(
         decoration: BoxDecoration(

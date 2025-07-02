@@ -12,6 +12,9 @@ class StatusScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Status', style: GoogleFonts.poppins(fontWeight: FontWeight.w600)),
+        leading:  IconButton(onPressed: (){
+          Navigator.pop(context);
+        }, icon: Icon(Icons.arrow_back_ios_new_sharp,color: Colors.black,)),
       ),
       body: StreamBuilder<DatabaseEvent>(
         stream: statusRef.onValue,
